@@ -1,5 +1,5 @@
 import client from '../client.js';
-import { Lead, LeadResponse } from '../types.js';
+import { Lead, LeadResponse } from '../types/fub.js';
 
 /**
  * Fetches the first lead matching the given email address.
