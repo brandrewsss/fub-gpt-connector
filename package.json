@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node dist/services/mcp.js",
     "dev": "ts-node src/server.ts"
   },
   "devDependencies": {
@@ -19,6 +19,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3",
     "axios": "^1.9.0",
     "dotenv": "^16.3.1",
     "express": "^4.21.2"
